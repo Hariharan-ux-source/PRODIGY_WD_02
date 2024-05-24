@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f4f4f4;
+    background-image: url("https://media.istockphoto.com/id/1330853385/vector/golden-abstract-futuristic-technology-background-with-clock-concept-and-time-machine-can.jpg?s=612x612&w=0&k=20&c=YoMnxruP1ZuG8OUQt4vlsfZji35KWIqJ4oxAOA8zr1Q=");
+    background-size: cover;
+}
+
+
+
+.stopwatch-container {
+    background-color: rgba(205, 141, 46, 0.7); /* Transparent white background */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.stopwatch {
+    font-size: 6em;
+    margin-bottom: 20px;
+    background: rgba(0, 0, 0, 0.1); /* Transparent background */
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.buttons button {
+    margin: 5px;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+.laps {
+    margin-top: 20px;
+}
+
+.laps h2 {
+    margin-bottom: 10px;
+}
+
+.results {
+    list-style-type: none;
+    padding: 0;
+}
+
+.results li {
+    background-color: #eee;
+    margin: 5px 0;
+    padding: 5px;
+    border-radius: 4px;
+}
